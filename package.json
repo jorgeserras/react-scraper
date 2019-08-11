@@ -1,0 +1,42 @@
+{
+  "name": "react-scraper",
+  "version": "0.0.2",
+  "description": "Web scraper for reactjs",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "dependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Jorge Serras",
+    "email": "caveiroserras@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgeserras/react-scraper.git"
+  },
+  "keywords": [
+    "react",
+    "scraper"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jorgeserras/react-scraper/issues"
+  },
+  "devDependencies": {
+	"react": "^15.5.4",
+    "webpack": "^2.6.1",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  }
+}
